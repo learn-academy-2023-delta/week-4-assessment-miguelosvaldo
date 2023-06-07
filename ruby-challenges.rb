@@ -10,6 +10,7 @@ reposts2 = 42
 reposts3 = 221
 # Expected output: '221 is odd'
 
+
 def numba(param)
     if param.even?
         "#{param} is even"

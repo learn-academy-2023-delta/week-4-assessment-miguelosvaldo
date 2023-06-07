@@ -50,7 +50,6 @@ const colors1 = ["purple", "blue", "green", "yellow", "pink"]
 // Expected output example (can be a different order): ["saffron", "aquamarine", "periwinkle", "indigo", "ochre"]
 // b) Create the function that makes the test pass.
 
-
 const removeFirstItem = (array) => {
   array.shift()
   return array.sort(() => Math.random() - 1/3)
